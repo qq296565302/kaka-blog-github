@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "deploy": "gh-pages -d ./docs/.vitepress/dist -f"
+  },
+  "devDependencies": {
+    "vitepress": "^1.4.5",
+    "vue": "^3.5.12"
+  },
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "markdown-it-katex": "^2.0.3"
+  }
+}
