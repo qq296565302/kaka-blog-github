@@ -3,8 +3,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs",
-    "deploy": "gh-pages -d ./docs/.vitepress/dist -f"
+    "preview": "vitepress preview docs",
+    "deploy": "gh-pages -d docs/.vitepress/dist -f -b gh-pages"
   },
   "devDependencies": {
     "vitepress": "^1.4.5",

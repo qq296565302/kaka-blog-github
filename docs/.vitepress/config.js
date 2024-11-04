@@ -4,7 +4,7 @@ export default defineConfig({
   title: "Icarus 技术文档",
   description: "Icarus Technical Blog",
   author: "Zhao Shijun",
-  base: '/icarus',
+  base: '/kaka-blog-github/',
   markdown: {
     lineNumbers: true,
     config: md => {
@@ -27,11 +27,11 @@ export default defineConfig({
         items: [
           {
             text: '前端面试指南',
-            link: "/guide/知识体系与面试世界观"
+            link: "./guide/知识体系与面试世界观.html"
           },
           {
             text: '前端应用笔记',
-            link: "/notes/WebSocket心跳重连机制"
+            link: "./notes/WebSocket心跳重连机制.html"
           },
           {
             text: '基于Vue3.x的前端后台管理框架',
@@ -58,7 +58,7 @@ export default defineConfig({
       { text: "一些值得记录的观点", link: "/viewpoint/大厂的员工还是应该有危机感" },
     ],
     footer: {
-      copyright: 'Copyright © 2023-present Icarus'
+      copyright: 'Copyright © 2024-present Icarus'
     },
 
   }
