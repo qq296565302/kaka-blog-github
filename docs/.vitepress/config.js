@@ -27,15 +27,11 @@ export default defineConfig({
         items: [
           {
             text: '前端面试指南',
-            link: "./guide/知识体系与面试世界观.html"
+            link: "/guide/知识体系与面试世界观"
           },
           {
             text: '前端应用笔记',
-            link: "./notes/WebSocket心跳重连机制.html"
-          },
-          {
-            text: '基于Vue3.x的前端后台管理框架',
-            link: "/vue3/Part1.初始化"
+            link: "/notes/WebSocket心跳重连机制"
           },
           {
             text: 'Three.js的3D世界',
@@ -45,14 +41,6 @@ export default defineConfig({
             text: 'LeetCode 算法题解',
             link: "/LeetCode/算法笔记"
           }
-        ]
-      },
-      {
-        text: "前端之外",
-        items: [
-          { text: "《区块链技术与应用》公开课", link: "/BlockChain/比特币的密码学原理" },
-          { text: "Flutter", link: "/flutter/dart" },
-          { text: "计算机网络", link: "/network/DNS 域名解析系统：CNAME 记录的作用是？" },
         ]
       },
       { text: "一些值得记录的观点", link: "/viewpoint/大厂的员工还是应该有危机感" },
