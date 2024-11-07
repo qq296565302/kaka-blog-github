@@ -26,10 +26,6 @@ export default defineConfig({
         text: "Web前端开发",
         items: [
           {
-            text: '前端面试指南',
-            link: "/guide/知识体系与面试世界观"
-          },
-          {
             text: '前端应用笔记',
             link: "/notes/WebSocket心跳重连机制"
           },

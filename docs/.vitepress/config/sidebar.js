@@ -33,34 +33,18 @@ export const sidebar = {
           text: '5.Async/Await如何通过同步的方式实现异步',
           link: '/notes/AsyncAwait 如何通过同步的方式实现异步'
         },
-      ]
-    }
-  ],
-  '/vue3/': [
-    {
-      text: '基于Vue3.x的前端后台管理框架',
-      items: [
         {
-          text: 'Part1.初始化',
-          link: '/vue3/Part1.初始化'
+          text: '6.知识体系与世界观',
+          link: '/notes/知识体系与世界观'
         },
         {
-          text: 'Part2.基于权限管理的动态路由',
-          link: '/vue3/Part2.基于权限管理的动态路由'
-        },
-        {
-          text: 'Part3.封装axios',
-          link: '/vue3/Part3.封装axios'
-        }, {
-          text: 'Part4.封装Localstorage',
-          link: '/vue3/Part4.封装Localstorage'
-        }, {
-          text: '2.1 初始化后端服务',
-          link: '/vue3/2.1 初始化后端服务'
+          text: '7.闭包：从编译原理理解作用域',
+          link: '/notes/闭包：从编译原理的角度理解作用域'
         }
       ]
     }
   ],
+
   '/BlockChain/': [
     {
       text: '《区块链技术与应用》公开课',
@@ -76,14 +60,6 @@ export const sidebar = {
       items: [
         { text: 'Dart 语法', link: '/flutter/dart' },
         { text: 'Flutter 基础', link: '/flutter/flutter' },
-      ]
-    }
-  ],
-  '/network/': [
-    {
-      text: '计算机网络',
-      items: [
-        { text: 'DNS 域名解析系统：CNAME 记录的作用是？', link: '/network/DNS 域名解析系统：CNAME 记录的作用是？' },
       ]
     }
   ],
